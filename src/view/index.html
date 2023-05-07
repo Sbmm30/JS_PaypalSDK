@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-100">
+    <main class="flex justify-center items-center h-screen">
+      <form id="formulario">
+        <div class="w-80">
+          <div class="text-center mb-3">
+            <img
+              src="../assets/image/imgPaypal.png"
+              alt="Logo de paypal"
+              class="w-40 h-auto mx-auto"
+            />
+          </div>
+          <div class="flex flex-col gap-y-4">
+            <div>
+              <label for="txtNombre" class="block font-medium">Nombre</label>
+              <input
+                type="text"
+                name="iNombre"
+                id="txtNombre"
+                required
+                placeholder="Peter Thiel"
+                class="block w-full rounded-md px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+              />
+            </div>
+            <div>
+              <label for="txtCorreo" class="block font-medium">Correo</label>
+              <input
+                type="email"
+                id="txtCorreo"
+                required
+                name="iCorreo"
+                placeholder="ejemplo@correo.com"
+                class="block w-full rounded-md px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+              />
+            </div>
+            <div>
+              <label for="txtMonto" class="block font-medium">Monto</label>
+              <input
+                type="number"
+                step="0.01"
+                name="iMonto"
+                id="txtMonto"
+                required
+                placeholder="30.00"
+                value="30.00"
+                class="block w-full rounded-md px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+              />
+            </div>
+            <div id="paypal-button-container"></div>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
