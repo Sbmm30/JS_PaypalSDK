@@ -23,6 +23,8 @@ paypal
     },
 
     onCancel: function (data, actions) {
+      const nombre = document.getElementById("txtNombre").value;
+      alert("Acabas de cancelar el pago, gracias por visitarnos " + nombre);
       console.log(data);
     },
   })
