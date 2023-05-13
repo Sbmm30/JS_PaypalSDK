@@ -1,5 +1,5 @@
 
-![Logo](https://i.postimg.cc/RhNSJHN0/Captura-de-pantalla-2023-05-08-181632.png)
+![Logo](https://github.com/Sbmm30/JS_PaypalSDK/blob/main/assets/image/imgBuho.png)
 
 ## Introducción
 
