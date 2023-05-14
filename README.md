@@ -40,7 +40,7 @@ Se tiene que instalar las dependencias y cargar los estilos de tailwindcss.
 
 ## Correr el proyecto localmente
 
-Ejecute el archivo `index.html` en su navegador de su preferencia. Támbien tiene la **opción de visualizar** el proyecto haciendo [→ click aquí ←](https://sbmm30.github.io/JS_PaypalSDK/), ya que el `CLIENT_ID` está vacío. 
+Ejecute el archivo `index.html` en su navegador de su preferencia. Támbien tiene la **opción de visualizar** el proyecto haciendo [→ click aquí ←](https://sbmm30.github.io/JS_PaypalSDK/). 
 
 ## Planteamiento del Trabajo
 
